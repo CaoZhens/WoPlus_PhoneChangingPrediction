@@ -6,3 +6,19 @@
 >联通内部8月-9月之间品牌和机型的标签发生了变化。8月份之前，总部品牌和机型都是英文的；9月份之后，给的都是中文的。由于品牌和机型的标签是总部给的，上海联通没有机型变化对照表，内部一般是8月份的数据用8月份之前的数据预测，9月份之后的数据用9月份之后的数据预测。
 
 **为了简化数据集处理流程，我们只选择9-12月数据进行训练和测试**
+
+## 模型对比
+
+**Baseline-1**
+* 模型类别：**LR**
+* 特征工程：**逻辑特征ohc+连续特征z-score归一化**
+* 训练集AUC： **0.59054**
+* ROC Curve：
+<img src="https://github.com/CaoZhens/WoPlus_PhoneChangingPrediction/blob/master/pic/ROC_Curve_Baseline_1.png" alt="" data-canonical-src="" />
+
+**Baseline-2**
+* 模型类别：
+* 特征工程：
+* 训练集AUC： **0.59688**
+* ROC Curve：
+<img src="https://github.com/CaoZhens/WoPlus_PhoneChangingPrediction/blob/master/pic/ROC_Curve_Baseline_2.png" alt="" data-canonical-src="" />
