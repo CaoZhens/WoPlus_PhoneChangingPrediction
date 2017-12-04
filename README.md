@@ -11,14 +11,14 @@
 
 **Baseline-1**
 * 模型类别：**LR**
-* 特征工程：**逻辑特征ohc+连续特征z-score归一化**
+* 特征工程：**原始逻辑特征ohc+原始连续特征z-score归一化**
 * 训练集AUC： **0.59054**
 * ROC Curve：
 <img src="https://github.com/CaoZhens/WoPlus_PhoneChangingPrediction/blob/master/pic/ROC_Curve_Baseline_1.png" alt="" data-canonical-src="" />
 
 **Baseline-2**
-* 模型类别：
-* 特征工程：
+* 模型类别：**LR**
+* 特征工程：**原始逻辑特征ohc+原始连续特征decretization-ohc**
 * 训练集AUC： **0.59688**
 * ROC Curve：
 <img src="https://github.com/CaoZhens/WoPlus_PhoneChangingPrediction/blob/master/pic/ROC_Curve_Baseline_2.png" alt="" data-canonical-src="" />
