@@ -22,3 +22,10 @@
 * 训练集AUC： **0.59688**
 * ROC Curve：
 <img src="https://github.com/CaoZhens/WoPlus_PhoneChangingPrediction/blob/master/pic/ROC_Curve_Baseline_2.png" alt="" data-canonical-src="" />
+
+**Baseline-3**
+* 模型类别：**LR**
+* 特征工程：**原始逻辑特征ohc+原始连续特征decretization-ohc+外部终端库特征**
+* 训练集AUC： **0.68922**
+* ROC Curve：
+<img src="https://github.com/CaoZhens/WoPlus_PhoneChangingPrediction/blob/master/pic/ROC_Curve_Baseline_3.png" alt="" data-canonical-src="" />
