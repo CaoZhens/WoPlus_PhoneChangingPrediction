@@ -9,23 +9,51 @@
 
 ## 模型对比
 
-**Baseline-1**
+**Baseline-1.1**
 * 模型类别：**LR**
-* 特征工程：**原始逻辑特征ohc+原始连续特征z-score归一化**
+* 特征工程：**原始逻辑特征ohc + 原始连续特征Z-Score归一化**
 * 训练集AUC： **0.59054**
 * ROC Curve：
 <img src="https://github.com/CaoZhens/WoPlus_PhoneChangingPrediction/blob/master/pic/ROC_Curve_Baseline_1.png" alt="" data-canonical-src="" />
 
-**Baseline-2**
+**Baseline-1.2**
+* 模型类别：**LR**
+* 特征工程：**原始逻辑特征ohc + 原始连续特征正态归一化**
+* 训练集AUC： **0.59226**
+* ROC Curve：
+<img src="https://github.com/CaoZhens/WoPlus_PhoneChangingPrediction/blob/master/pic/ROC_Curve_Baseline_1_2.png" alt="" data-canonical-src="" />
+
+**Baseline-1.3**
+* 模型类别：**LR**
+* 特征工程：**原始逻辑特征ohc&正态归一化 + 原始连续特征正态归一化**
+* 训练集AUC： **0.61448**
+* ROC Curve：
+<img src="https://github.com/CaoZhens/WoPlus_PhoneChangingPrediction/blob/master/pic/ROC_Curve_Baseline_1_3.png" alt="" data-canonical-src="" />
+
+**Baseline-2.1**
 * 模型类别：**LR**
 * 特征工程：**原始逻辑特征ohc+原始连续特征decretization-ohc**
 * 训练集AUC： **0.59688**
 * ROC Curve：
 <img src="https://github.com/CaoZhens/WoPlus_PhoneChangingPrediction/blob/master/pic/ROC_Curve_Baseline_2.png" alt="" data-canonical-src="" />
 
-**Baseline-3**
+**Baseline-2.2**
+* 模型类别：**LR**
+* 特征工程：**原始逻辑特征ohc&正态归一化 + 原始连续特征decretization-ohc&正态归一化**
+* 训练集AUC： **0.68032**
+* ROC Curve：
+<img src="https://github.com/CaoZhens/WoPlus_PhoneChangingPrediction/blob/master/pic/ROC_Curve_Baseline_2_2.png" alt="" data-canonical-src="" />
+
+**Baseline-3.1**
 * 模型类别：**LR**
 * 特征工程：**原始逻辑特征ohc+原始连续特征decretization-ohc+外部终端库特征**
 * 训练集AUC： **0.68922**
 * ROC Curve：
 <img src="https://github.com/CaoZhens/WoPlus_PhoneChangingPrediction/blob/master/pic/ROC_Curve_Baseline_3.png" alt="" data-canonical-src="" />
+
+**Baseline-3.2**
+* 模型类别：**LR**
+* 特征工程：**原始逻辑特征ohc&正态归一化+原始连续特征decretization-ohc&正态归一化+外部终端库特征&正态归一化**
+* 训练集AUC： **0.73619**
+* ROC Curve：
+<img src="https://github.com/CaoZhens/WoPlus_PhoneChangingPrediction/blob/master/pic/ROC_Curve_Baseline_3_2.png" alt="" data-canonical-src="" />
